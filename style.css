@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue:  rgb(211, 241, 255);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:var(--blue);
+}
+
+ul {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:var(--blue);
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+    3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+}
